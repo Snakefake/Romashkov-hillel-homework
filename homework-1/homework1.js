@@ -6,5 +6,5 @@ if(confirm("Are you sure?")) {
         personAge = prompt("How old are you?");
         alert("Hello, " + person + " " + personLastName + " " + "Your hobbi is " + personHobbi + " " + "And you are " + personAge + " " + "years old" + " ! " + "How Are You?");
         console.log(person, personLastName, personHobbi, personAge);
-    } else
+    } else 
         alert("Person not sure");
