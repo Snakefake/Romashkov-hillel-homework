@@ -1,4 +1,4 @@
-/* let chess = [
+let chess = [
     [0,0,0,0,0,0,0,0],
     [0,0,0,0,0,0,0,0],
     [0,0,0,0,0,0,0,0],
@@ -66,4 +66,4 @@ function horse() {
     if (+x - 1 >= 0 && +y + 2 < 8) {
         document.querySelector(`.chess-block[data-x="${+x - 1}"][data-y="${+y + 2}"]`).classList.add('active');
     }
-} */
+}
