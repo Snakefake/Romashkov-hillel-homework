@@ -3,7 +3,7 @@
   let maxNumber = prompt('Введите максимальное число');
 
 
-  document.querySelector('button').onclick = function () {
+  function something() {
     let l = lenghtNumber;
     let min = minNumber;
     let max = maxNumber;
@@ -16,10 +16,13 @@
     alert(getAverage(result));
     return result;
   }
+  something();
 
-
-  let getAverage = (result) => {
-    let sum = result.reduce((acc, number) => acc + number, 0);
+  function getAverage(result) {
+    let sum = 0;
+    result.forEach(elem => {
+      sum += elem;
+    })
     let length = result.length;
     return sum / length;
   };
@@ -30,3 +33,19 @@
     rand = Math.round(rand);
     return rand;
   } */
+
+
+
+
+  //reduce делает callback для каждого исходного элемента массива и в результате вернет 1 значение которое является суммой всех элементов массива
+  // acc это аккумулирующее значение,изначально оно равно нулю,потом к нему прибавляется 1 элемент массива и сохраняется,потом 2 и т.д. до конца,в конце выведет сумму всех элементов массива
+  // number это элемент массива
+  // так же значение аккумулятора можна задать,изначально оно всегда 0 но можно задать например 10 и тогда будет (10+все значения массива в сумме),всё что впринципе знаю про reduce,этого мало чтобы его использовать?
+
+
+
+  /* function getAverage(result) {
+    let sum = result.reduce((acc, number) => acc + number, 0);
+    let length = result.length;
+    return sum / length;
+  }; */

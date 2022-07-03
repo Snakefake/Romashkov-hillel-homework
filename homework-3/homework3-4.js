@@ -3,27 +3,17 @@
 function arrayLength (array) {
 
     let length = 0;
-
-
-
-
     while (array[length] !== undefined) {
 
         length++;
-
     }
 
     return length;
 }
 
-
-
 function shift (array) {
 
     let newArray = [];
-
-
-
 
     for (let i = 0; i < (arrayLength(array) - 1); i++) {
 
@@ -46,13 +36,7 @@ function unshift (array, element) {
 
     let newArray = [];
 
-
-
-
     for (let i = 0; i < (arrayLength(array)+1); i++) {
-
-
-
 
         if (i === 0) {
 
@@ -79,12 +63,7 @@ function push (array, element) {
 
     let newArray = [];
 
-
-
-
     for (let i = 0; i <= (arrayLength(array)); i++) {
-
-
 
 
         if (i === (arrayLength(array))) {
@@ -111,9 +90,6 @@ alert(`push (5): ${arr}`);
 function pop (array) {
 
     let newArray = [];
-
-
-
 
     for (let i = 0; i < (arrayLength(array)-1); i++) {
 
