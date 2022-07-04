@@ -41,10 +41,10 @@
     "Churchill","Brown","Blum",
     "Anderson","Black","Cavenaugh",
     "Hampton","Jenkins","Prichard"
-    )
+    ) */
 
 
-    let r = 0;
+    /* let r = 0;
     let i = 0;
 
     function RandomName(nameform) {
@@ -79,29 +79,12 @@
 
     function getLetter(type) {
       let letterCheck = prompt(`Enter the first letter of the ${type}`);
-      let notLetter = onlyEngLetters(letterCheck) === false || letterCheck.length > 1;
-  
-      while (notLetter) {
-          alert('This is not an English letter, enter English letters only (only one letter)!');
-          letterCheck = prompt(`Enter the first letter of the ${type}`);
-          notLetter = onlyEngLetters(letterCheck) === false || letterCheck.length > 1;
-      }
-  
       return letterCheck;
   }
-  
-  function onlyEngLetters(str) {
-      return /^[a-zA-Z]+$/.test(str);
-  }
-  
+   
   function getGender() {
+
       let genderCheck = prompt('Enter the gender please, \'male\' or \'female\'');
-  
-      while (genderCheck != 'male' && genderCheck != 'female') {
-          alert('Enter \'male\' or \'female\' only!');
-          genderCheck = prompt('Enter the gender please, \'male\' or \'female\'');
-      }
-  
       return genderCheck;
   }
   
