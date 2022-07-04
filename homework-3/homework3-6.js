@@ -77,9 +77,11 @@
 // Через ключи
 
 
-    function getLetter(type) {
-      let letterCheck = prompt(`Enter the first letter of the ${type}`);
-      return letterCheck;
+  function getLetter(type) {
+
+  let letterCheck = prompt(`Enter the first letter of the ${type}`);
+  return letterCheck;
+  
   }
    
   function getGender() {
