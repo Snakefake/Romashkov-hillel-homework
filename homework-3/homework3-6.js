@@ -1,3 +1,5 @@
+//Рандомный генератор имён с выбором пола
+
 /* let malename = new Array(
     "Allen","Bob","Carlton",
     "David","Ernie","Foster",
@@ -81,7 +83,7 @@
 
   let letterCheck = prompt(`Enter the first letter of the ${type}`);
   return letterCheck;
-  
+
   }
    
   function getGender() {
@@ -98,8 +100,6 @@
   
   
   chosenGender = getGender();
-  
-  
   
   function getRandomName(letter1, letter2, gender) {
       let givenName = '';
