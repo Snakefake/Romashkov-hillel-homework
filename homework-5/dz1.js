@@ -1,25 +1,21 @@
-/* let arr = [];
-let max = findMax(arr);
+/* const testArray = [2,3,5,-2,10];
+let max = testArray[0];
 
-function findMax(arr) {
-
-    let max = -Infinity
-    let i = 0;
-        i++;
-        let el = arr[i];
-        if (i >= arr.length) return arr[0];
-        if (arr[i] > max) return Math.max(...arr);
-
-
-        if ( el > max )
-        {
-            max = el;
-            el = findMax( el );
-        } 
-           
-
-    return max;
+function getMax(arr, index) {
+    
+    if (index === arr.length) {
+        console.log(max , 'max');
+        return max;
+    }
+    arr[index];
+    max = arr[index] > max ? arr[index] : max;
+    index ++;
+    return getMax(arr, index);
 }
-console.log(findMax([8]), 'one element test, must return 8');
-console.log(findMax([1, 8, 37, 5, 17]), '5 elements test, must return 37');
-console.log(findMax([8, 17]), '2 elements test, must return 17'); */
+getMax(testArray, 0); */
+
+
+
+
+
+
