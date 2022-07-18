@@ -1,0 +1,35 @@
+header{
+    font-family: "Open Sans";
+    background-image: url(.././img/header_bg.png);
+    padding-top: 27px;
+    .menu{
+        ul{
+            max-width: $content-width;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            background-color: #313030;
+        }
+        
+        
+        .menu__component{
+            text-transform: uppercase;
+            list-style-type: none;
+            padding: 43px 23px 35px 23px; 
+            a{
+                text-decoration: none;
+                color: #e0e0e0;
+                padding: 43px 23px 35px 23px;
+                font-weight: 700;   
+            }
+            a:hover{
+                background-image: url(.././img/red_square.png);
+                transition: 0.3s;
+                } 
+        } 
+    }
+    
+    
+}
+

@@ -1,0 +1,10 @@
+@media (max-width:768px) {
+    .design{
+        .design__mail{
+           flex-direction: column;
+           input{
+               margin-bottom: 50px;
+           }
+        }
+    }
+}

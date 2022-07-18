@@ -1,0 +1,29 @@
+@media (max-width:1100px) {
+    $content-width: 992px;
+    .gallery{
+        .gallery__wrapper{
+            width: 100%;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: none;
+            padding: 0;
+            margin: 0 auto;
+            .gallery__compontent{
+                width: $content-width / 3;
+                height: $content-width / 3;
+            }
+        }
+    }
+    .gallery__navigation{
+        ul{
+            flex-direction: column;
+            margin: 0 auto;
+            li{
+                margin-top: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,26 +1,24 @@
+// 1 Вариант
 /* function sum(num) {
     let result = num;
     function f(s) {
         result += s;
-        console.log(result);
-        return f;
+        return result;
     }
-    console.log(result);
     return f;
-} */
+}
+let s = sum(0); */
 
 
 
-//Верное решение
+// 2 Вариант
 
 /* let accum = 0
 
 function sum (num) {
-
     function f() {
         accum += num;
         return accum;
     }
-
     return f();
 } */

@@ -1,0 +1,16 @@
+@media (max-width:1100px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+        
+        .services__text-wrapper{
+            text-align: center;
+            margin-bottom: 50px;
+            margin: 0 auto;
+        }
+        .services__more{
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+    }
+}

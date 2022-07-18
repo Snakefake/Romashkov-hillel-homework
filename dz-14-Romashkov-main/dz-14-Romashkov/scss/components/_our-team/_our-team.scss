@@ -1,0 +1,31 @@
+.our__team{
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: $content-width;
+    margin: 0 auto;
+    .our__team-wrapper{
+        margin-top: 120px;
+        .our__team-title{
+            color: #585858;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .our__team-subtitle{
+            max-width: 450px;
+            color: #7f7f7f;
+        }
+        &::after{
+            content: '';
+            display: inline-block;
+            width: 130px;
+            margin: 0 auto;
+            height: 2px;
+            background-color: $line-color;
+        }
+    }
+}

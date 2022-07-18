@@ -20,8 +20,7 @@ console.log(result); */
 
 // Находит неполный остаток от деления
 
-
-function quotient(a, b){
+/* function quotient(a, b){
     return Math.trunc(Math.floor(a / b));
 }
 
@@ -30,6 +29,6 @@ function f(a, b, func){
 }
 
 result = f(44,5,quotient);
-console.log(result);
+console.log(result); */
 
 

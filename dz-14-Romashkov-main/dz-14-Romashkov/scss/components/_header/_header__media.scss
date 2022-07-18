@@ -1,0 +1,17 @@
+@media (max-width:992px) {
+    header{
+        .menu{
+            ul{
+                flex-direction: column;
+            }
+            .menu__component{
+                a{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                }
+                
+            }
+        }
+    }
+}

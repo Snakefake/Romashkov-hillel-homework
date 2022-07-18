@@ -1,0 +1,39 @@
+main{
+    .main__wrapper{
+        background-image: url(.././img/header_bg.png);
+        font-family: "Open Sans";
+    }
+    .main__preview{   
+        max-width: $content-width;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 104px;
+        padding-bottom: 104px;
+        .main__text-wrapper{
+            margin-bottom: 55px;
+            .main__text-title{
+                font-weight: 800;
+                text-transform: uppercase;
+                font-size: 60px;
+            }
+            .main__text-description{
+                font-weight: 400;
+                color: #6f6d6d;
+            }
+            .main__button{
+                margin-top: 73px;
+                a{
+                   @extend %main-button;
+                }
+            }
+        }
+        .main__video{
+            iframe{
+                width: 552px;
+                height: 357px;
+            }
+        }
+    }
+}

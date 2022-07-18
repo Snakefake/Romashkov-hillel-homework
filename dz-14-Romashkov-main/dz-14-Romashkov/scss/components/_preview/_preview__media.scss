@@ -1,0 +1,11 @@
+@media (max-width: 1100px) {
+    .main__preview{
+        $content-width: 992px;
+        text-align: center;
+    }
+    .main__video{
+        iframe{
+            display: none;
+        }
+    }
+}

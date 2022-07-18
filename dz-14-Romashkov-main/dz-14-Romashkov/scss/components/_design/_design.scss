@@ -1,0 +1,39 @@
+.design{
+    font-family: 'Open Sans';
+    background-color: #f5f0dd;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding-top: 120px;
+    padding-bottom: 130px;
+    .design__wrapper{
+        max-width: $content-width;
+        text-align: center;
+        margin: 0 auto;
+        .design__title{
+            font-size: 45px;
+            color: white;
+        }
+        .design__subtitle{
+            color: white;
+            padding-top: 20px;
+        }
+    }
+    .design__mail{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 65px;
+        max-width: 650px;
+        margin: 0 auto;
+        input{
+            width: 100%;
+            border-radius: 5px;
+            margin-right: 20px;
+            border: 0;
+            padding: 20px 0 20px 30px;
+        }
+        a{
+            @extend %main-button;
+        }
+    }
+}

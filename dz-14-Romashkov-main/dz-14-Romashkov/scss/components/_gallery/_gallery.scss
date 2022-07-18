@@ -1,0 +1,76 @@
+.gallery__description{
+    margin-top: 105px;
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    .gallery__description-wrapper{
+        .gallery__title{
+            color: #585858;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .gallery__subtitle{
+            max-width: 530px;
+            color: #7f7f7f;
+        }
+        &::after{
+            content: '';
+            display: inline-block;
+            width: 130px;
+            margin: 0 auto;
+            height: 2px;
+            background-color: $line-color;
+        }
+    }
+}
+.gallery__navigation{
+    margin-top: 80px;
+    font-family: 'Open Sans';
+     ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    
+        li{
+        list-style-type: none;
+            a{
+            text-decoration: none;
+            color: #737373;
+            font-weight: 600;  
+         }
+            a:hover{
+             color: $line-color;
+             transition: 0.3s;
+         }
+     }
+
+  }
+    
+}
+.gallery{
+    margin-top: 60px;
+    .gallery__wrapper{
+        max-width: $content-width;
+        display: flex;
+        margin: 0 auto;
+        .gallery__compontent{
+            background-color: rgb(122, 55, 55);
+            width: $content-width / 4;
+            height: $content-width / 4;
+            margin: 0 20px 15px 0; 
+            background-image: url(.././img/mountain_first.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;  
+        }
+    }
+}

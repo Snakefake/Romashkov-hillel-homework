@@ -1,0 +1,20 @@
+footer{
+    margin-top: 110px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #313030;
+    .footer__content{
+        margin: 0 auto;
+        max-width: $content-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+            .img__wrapper{
+                display: flex;
+                img{
+                    display: flex;
+                    margin-right: 15px;
+                }
+            }
+    }
+}
