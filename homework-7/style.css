@@ -1,0 +1,130 @@
+.checkout-header{
+    margin-bottom: 24px;
+}
+.checkout-header__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+}
+.container{
+    width: 1235px;
+    margin: 0 auto;
+}
+.checkout-header__phone{
+    color:#797878;
+    font-size: 15px;
+}
+.checkout-header__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkout-header__phone a {
+    color: #221f1f;
+    text-decoration: none;
+    cursor: pointer;
+}
+.checkout-header__phone a:hover {
+    border-bottom: 1px solid #000;
+}
+.button_type_link{
+    background: none;
+    border: none;
+    color: #3e77aa;
+    cursor: pointer;
+    margin: 0;
+    text-decoration: none;
+}
+.button_type_link_text{
+    font-size: 15px;
+}
+.button_type_link_text:hover{
+    transition: 0.3s;
+    color: deeppink;
+}
+
+
+.pop_up{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    z-index: 2;
+}
+.pop_up_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+.pop_up_body{
+    margin: auto;
+    width: 440px;
+    height: 390px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px 25px 25px;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.pop_up_body p{
+    color: #221f1f;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+}
+.consultation-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.consultation-caption{
+    font-size: 18px;
+}
+.call-center__graphic-caption{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.sellers-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.days-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.graphic-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.call-center__graphic{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .hovered-numbers:hover{
+    transition: 0.3s;
+    color: deeppink;
+    border-bottom:  solid deeppink;
+} */
