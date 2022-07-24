@@ -947,3 +947,14 @@ footer .footer__content .img__wrapper img {
     width: 50%;
   }
 }
+
+
+.other-btns{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+}
+.active{
+  border: 5px solid green;
+}
