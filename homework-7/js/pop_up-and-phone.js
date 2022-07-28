@@ -11,3 +11,5 @@ closePopUp.addEventListener('click', () => {
     popUp.classList.remove('active');
 })
 
+
+

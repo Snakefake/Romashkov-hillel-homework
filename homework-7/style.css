@@ -52,7 +52,6 @@
     color: deeppink;
 }
 .pop_up {
-    display: none;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -61,11 +60,11 @@
     background-color: transparent;
     z-index: 2;
     transform: translateY(-44.5%) scale(0);
-    transition: .4s ease-in-out;
+    transition: 0.3s; 
 }
 .pop_up.active {
     transform: translateY(0%) scale(100%);
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.568);         
 }
 .pop_up_container{
     display: flex;
@@ -155,3 +154,76 @@
     color: lightslategray;
     cursor: pointer;
 }
+
+.main_caption{
+    font-size: 36px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.contact_information__wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact_information__wrapper span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 16px;
+    background-color: #e9e9e9;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contact_information__caption{
+    font-size: 18px;
+}
+.contact_information{
+    padding-left: 40px;
+}
+.form__row{
+    position: relative;
+}
+.form_label{
+    font-size: 14px;
+    color: #797878;
+}
+.form__row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.form__row:not(:last-child){
+    margin-right: 20px;
+}
+.form_row__type__flex{
+    display: flex;
+    align-items: flex-start;
+}
+input[_size_medium] {
+    height: 40px;
+}
+input {
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    appearance: none;
+    border: 1px solid #d2d2d2;
+    transition: border .2s ease-in-out;
+    width: 405px;
+}
+input:not([type=checkbox]):not([type=radio]):focus{
+    box-shadow: 0 0 0 2px #6fc4e5;
+    z-index: 1;
+}
+input:focus{
+    border-color: #a6a5a5;;
+}
+    
