@@ -225,5 +225,13 @@ input:not([type=checkbox]):not([type=radio]):focus{
 }
 input:focus{
     border-color: #a6a5a5;;
+    outline: none;
 }
-    
+.error{
+    display: none;
+    color: red;
+    font-size: 14px;
+}
+.validation_type__error{
+    background: url(../homework-7/images/danger-zone-icon.png) right 12px center no-repeat #fff;
+}    

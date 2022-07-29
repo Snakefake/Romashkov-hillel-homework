@@ -92,21 +92,24 @@
             <div class="name_surname__wrapper form_row__type__flex">
                 <div class="form__row">
                     <label class="form_label"> Фамилия </label>
-                    <input _size_medium type="text">
+                    <input _size_medium type="text" name="surname" class="validation_type__error">
+                    <p class="error cirillic-error invisible">Введите свою фамилию кириллицею</p>
                 </div>
                 <div class="form__row">
                     <label class="form_label"> Имя </label>
-                    <input _size_medium type="text">
+                    <input _size_medium type="text" name="name" class="validation_type__error">
+                    <p class="error cirillic-error invisible">Введите свое имя кириллицею</p>
                 </div>
             </div>
             <div class="tel_email__wrapper form_row__type__flex">
                 <div class="form__row">
                     <label class="form_label"> Мобильный телефон </label>
-                    <input _size_medium type="text" class="phone" id="phone">
+                    <input _size_medium type="tel" class="phone validation_type__error" id="phone" name="tel">
+                    <p class="error cirillic-error invisible">Введите свой номер телефона</p>
                 </div>
                 <div class="form__row">
                     <label class="form_label"> Электронная почта </label>
-                    <input _size_medium type="text">
+                    <input _size_medium type="email">
                 </div>
             </div>
             
@@ -119,11 +122,11 @@
 
 
     <script src="../homework-7/js/pop_up.js"></script>
-    <script type="text/javascript" src="jquery.js"></script>
     <script src="../homework-7/js/jquery.maskedinput.min.js"></script>
+    <script src="../homework-7/js/form_validation.js"></script>
     <script>
         $(document).ready(function() {
-            $('#phone').mask('+38 (999) 999-99-99');
+            $('#phone').mask('+38 999 999-99-99');
         })
     </script>
 </body>
